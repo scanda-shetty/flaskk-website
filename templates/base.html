@@ -6,7 +6,8 @@
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/M.png') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
   <script type="text/javascript" src="{{ url_for('static', filename = 'js/base.js') }}"></script>
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/base.css') }}">
 
@@ -14,22 +15,11 @@
     {% endblock %}
 </head>
 <body>
-  <!--
-<div class="navbar-ul">
-    <ul id="navbar-list" class="list-inline">
-        <li><a class="navbar-ref" href="/">Home</a></li>
-        <li><a class="navbar-ref" href="/timeline">Timeline</a></li>
-        <li><a class="navbar-ref" href="/projects">Projects</a></li>
-        <li><a class="navbar-ref" href="/reading">Reading</a></li>
-    </ul>
-</div>
-
--->
 
 <header id="main-header">
   <nav class="navabar-default">
     <ul>
-      <li><a href="#"><img src="{{ url_for('static', filename='images/M.png') }}" alt="logo" id="logo" width="50px" /></a></li>
+      <li><a class="img" href="#"><img src="{{ url_for('static', filename='images/M.png') }}" alt="logo" id="logo" width="50px" /></a></li>
       <li><a href="/">Home</a></li>
       <li><a href="/timeline">Movies</a></li>
       <li><a href="/projects">Characters</a></li>
@@ -38,7 +28,81 @@
   </nav>
 </header>
 
-  
+
+
+<main class="content">
+  <div class="container">
+   <p> What can be better than coming home after a long day at work, leaving all stress behind the door, lying down on your favorite comfy couch, sipping some wine, and immersing yourself in the world your favorite characters live. If you are smiling thinking about that scenario, check out SolarMovies.Win for a safe, seamless, legal, and free streaming experience. 
+<br><br>
+SolarMovies.Win is a free movie site that allows millions of movie lovers to stream and download movies and TV shows in HD quality with multiple subtitles. To movie fans, SolarMovies is definitely not a new name as it has been a safe haven for them for years. People have many reasons to consider SolarMovies their favorite, but the biggest ones are the site’s extensive content library, superb streaming capabilities, and excellent customer service. SolarMovie is where you can enjoy premium quality content and features without having to pay a dime. 
+<br><br>
+Unlike most free sites, SolarMovies is completely safe and risk-free. As the site is ad-free, ads, pop-ups, and commercials are nonexistent. With no ad links, hackers have no way to install viruses and malware into your device to wreak havoc. That means you can enjoy watching movies and TV shows on SolarMovies.Win without any fear of data loss, identity theft, corrupted networks, etc. You also do not need to be worried about criminal or civil charges as watching movies online is legal, according to copyright attorneys. 
+<br><br>
+To watch movies and TV shows on SolarMovies.Win is as easy as searching for something on Google. The site does not require any signup or registration; therefore, all you need to do is to search for a title to watch, hit the Play button, and enjoy it. All videos will automatically play in HD quality for an enhanced watching experience. As long as your Internet connection is stable and strong enough, you can watch it seamlessly with no lagging, buffering, or pop-ups. As the site is mobile-friendly and Chromecast supported; you can continue binge-watching wherever you go, whenever you are free, and on whatever device available, be it a smartphone, tablet, desktop, laptop, or smart TV. 
+<br><br>
+Here is a summary of the site’s outstanding features in case you are not 100% convinced to check it out! 
+          <br><br>
+- An extensive content library with tens of thousands of movies and TV shows.<br>
+- Various genres and subgenres.<br>
+- Multiple subs (even dubs).<br>
+- High resolution (HD quality - 720p, adjustable).<br>
+- Fast loading speed.<br>
+- Bypass Geo-restrictions.<br>
+- Seamless streaming feature.<br>
+- Safe and private streaming sources.<br>
+- Daily content updates.<br>
+- User-friendly UI & UX.<br>
+- Great device compatibility.<br>
+- No ads, pop-ups, or commercials.<br>
+- No signup or account needed.<br>
+- Great customer service.<br>
+    </p>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col about">
+        
+        <ul>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">HELP</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">CAREERS</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="col language">
+        <ul>
+          <li><a href="#">ADVERTISING</a></li>
+          <li><a href="#">DISNEY+</a></li>
+          <li><a href="#">MARVELHQ.COM</a></li>
+          </ul>
+
+        
+      </div>
+      <div class="col socail">
+        <h3>Get in touch</h3>
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <br>
+      <br>
+      <ul>
+        <li><a href="#">Terms of purchase</a></li>
+        <li><a href="#">Security and privacy</a></li>
+        <li><a href="#">Newsletter</a></li>
+        <li><a href="#">@2020 MARVEL</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>  
 
 {% block body %}
 {% endblock %}
