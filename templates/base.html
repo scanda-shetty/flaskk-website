@@ -28,7 +28,27 @@
   </nav>
 </header>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <br>
 
+
+
+
+
+  
+{% block body %}
+{% endblock %}
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <main class="content">
   <div class="container">
@@ -59,7 +79,7 @@ Here is a summary of the site’s outstanding features in case you are not 100% 
     </p>
   </div>
 </main>
-
+  
 <footer>
   <div class="container">
     <div class="row">
@@ -78,9 +98,9 @@ Here is a summary of the site’s outstanding features in case you are not 100% 
           <li><a href="#">ADVERTISING</a></li>
           <li><a href="#">DISNEY+</a></li>
           <li><a href="#">MARVELHQ.COM</a></li>
-          <li><img src="{{ url_for('static', filename='images/marvel.png') }}" alt="logo" id="logo" width="50px" /></li>
-          </ul>
-
+        </ul>
+        <br><br>
+  <img src="{{ url_for('static', filename='images/marvel.png') }}" alt="logo" id="logo" width="420px" height="100px" />
         
       </div>
       <div class="col socail">
@@ -106,7 +126,6 @@ Here is a summary of the site’s outstanding features in case you are not 100% 
   </div>
 </footer>  
 
-{% block body %}
-{% endblock %}
+
 </body>
 </html>
