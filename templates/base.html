@@ -5,51 +5,29 @@
     <title>Marvel</title>
     <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/M.png') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-  <script type="text/javascript" src="{{ url_for('static', filename = 'js/base.js') }}"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/base.css') }}">
-
     {% block head %}
     {% endblock %}
 </head>
 <body>
-
 <header id="main-header">
   <nav class="navabar-default">
     <ul>
-      <li><a class="img" href="#"><img src="{{ url_for('static', filename='images/M.png') }}" alt="logo" id="logo" width="50px" /></a></li>
+      <li><a class="img" href="/"><img src="{{ url_for('static', filename='images/M.png') }}" alt="logo" id="l" width="50px" /></a></li>
       <li><a href="/">Home</a></li>
-      <li><a href="/timeline">Movies</a></li>
-      <li><a href="/projects">Characters</a></li>
+      <li><a href="/movies">Movies</a></li>
+      <li><a href="/characters">Characters</a></li>
       <li><a href="/reading">Shop</a></li>
     </ul>
   </nav>
 </header>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-  <br>
-
-
-
-
-
+<br><br><br><br><br><br><br>
   
 {% block body %}
 {% endblock %}
 
-<br>
-<br>
-<br>
-<br>
-<br>
-
+<br><br><br><br><br>
 <main class="content">
   <div class="container">
    <p> What can be better than coming home after a long day at work, leaving all stress behind the door, lying down on your favorite comfy couch, sipping some wine, and immersing yourself in the world your favorite characters live. If you are smiling thinking about that scenario, check out SolarMovies.Win for a safe, seamless, legal, and free streaming experience. 
@@ -79,12 +57,10 @@ Here is a summary of the site’s outstanding features in case you are not 100% 
     </p>
   </div>
 </main>
-  
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col about">
-        
+      <div class="col about">     
         <ul>
           <li><a href="#">ABOUT</a></li>
           <li><a href="#">HELP</a></li>
@@ -114,9 +90,8 @@ Here is a summary of the site’s outstanding features in case you are not 100% 
       </div>
     </div>
     <div class="row">
-      <br>
-      <br>
-      <ul>
+      <br><br>
+      <ul id="ul">
         <li><a href="#">Terms of purchase</a></li>
         <li><a href="#">Security and privacy</a></li>
         <li><a href="#">Newsletter</a></li>
@@ -125,7 +100,5 @@ Here is a summary of the site’s outstanding features in case you are not 100% 
     </div>
   </div>
 </footer>  
-
-
 </body>
 </html>

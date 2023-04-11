@@ -1,0 +1,60 @@
+
+.icon {
+    font-size: .9rem;
+    display: inline-flex;
+    background: black;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+  }
+
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .grid-item {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  
+  .movie-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:  0 auto;
+    max-width: 1200px;
+  }
+  
+  
+  
+  .grid-item h3 {
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .grid-item h4 {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  #logo{
+    transition: 0.3s;
+    height: 300px;
+  }
+  
+  #logo:hover{
+    transform: scale(1.1);
+  }
+  

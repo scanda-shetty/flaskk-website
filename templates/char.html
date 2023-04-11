@@ -1,0 +1,13 @@
+<div class="movie-grid">
+    <div class="grid-container">
+        {% for char in characters %}
+            {% for photo in char.photos %}
+                <div class="grid-item">
+                    <img id="logo" src="{{ photo }}" alt="{{ char.name }}">
+                    <h3>{{ char.name }}</h3>
+                    <h4>{{ char.actor }}</h4>
+                </div>
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>

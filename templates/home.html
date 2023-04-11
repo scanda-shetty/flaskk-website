@@ -1,19 +1,39 @@
 {% extends "base.html" %}
 
 {% block head %}
-<!--
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-<link type="text/css" rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
--->
+
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
-<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/card.css') }}">
 {% endblock %}
 
 {% block body %}
+
+<div class="search-container">
+<form action="/" method="post">
+  <input type="text" name="search" id="search" placeholder="Search projects">
+  <input type="submit" id="submit" value="Search">
+</form>
+</div>
+<br><br><br>
+  {% if results %}
+  <p id="result">Showing results for "{{ query }}":</p>
+  <br><br><br>
+  <div class="movie-grid">
+    <div class="grid-container">
+      {% for result in results %}
+        <div class="grid-item">
+          <a href="{{ url_for('project', name=result.name) }}"><img id="logo" src="{{ result.photos[0] }}" alt="{{ result.name }} image"></a>
+          <h3>{{ result.name }}</h3>
+          <h4>{{ result.date }}</h4>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+
+<div class="row cards-container">
+    {% include "card.html" %}
+</div>
 
 {% endblock %}

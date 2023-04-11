@@ -2,10 +2,24 @@
 
 {% block head %}
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/project.css') }}">
-<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/chip.css') }}">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/card.css') }}">
 
 {% endblock %}
 
 {% block body %}
+
+<div class="movie-grid">
+    <div class="grid-container">
+        <div class="grid-item">
+            <a href="{{ project['link'] }}">
+            {% for photo in project['photos'] %}
+                <img id="logo" src="{{ photo }}" alt="{{ project['name'] }}">
+            {% endfor %}
+            </a>
+            <h3>{{ project.name }}</h3>
+            <h4>{{ project.date }}</h4>
+        </div>
+    </div>
+</div>
 
 {% endblock %}

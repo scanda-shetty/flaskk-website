@@ -1,0 +1,244 @@
+{
+    "projects": [
+      {
+        "name": "Black Panther: Wakanda Forever",
+        "link": "https://chat.openai.com/chat",
+        "date": "2022",
+        "photos": [
+          "/static/images/bp.jpg"
+        ]
+      },
+      {
+        "name": "Ant-Man And The Wasp: Quantumania",
+        "link": "project-1",
+        "date": "2023",
+        "photos": [
+          "/static/images/ant.jpg"
+        ]
+      },
+      {
+        "name": "Doctor Strange: Multiverse Of Madness",
+        "link": "project-1",
+        "date": "2022",
+        "photos": [
+          "/static/images/strange.jpg"
+        ]
+      },
+      {
+        "name": "Spider-Man: No Way Home",
+        "link": "project-2",
+        "date": "2021",
+        "photos": [
+          "/static/images/spider.jpg"
+        ]
+      },
+      {
+        "name": "Eternals",
+        "link": "project-2",
+        "date": "2021",
+        "photos": [
+          "/static/images/eternals.jpg"
+        ]
+      },
+      {
+        "name": "Shang-Chi: The Legend Of Ten Rings",
+        "link": "project-1",
+        "date": "2021",
+        "photos": [
+          "/static/images/shangchi.jpg"
+        ]
+      },
+      {
+        "name": "Black Widow",
+        "link": "project-2",
+        "date": "2021",
+        "photos": [
+          "/static/images/bw.jpg"
+        ]
+      },
+      {
+        "name": "Spider-Man: Far From Home",
+        "link": "project-1",
+        "date": "2019",
+        "photos": [
+          "/static/images/spiderr.jpg"
+        ]
+      },
+      {
+        "name": "Avenger: Endgame",
+        "link": "project-2",
+        "date": "2019",
+        "photos": [
+          "/static/images/endgame.jpg"
+        ]
+      },
+      {
+        "name": "Ms Marvel",
+        "link": "project-1",
+        "date": "2019",
+        "photos": [
+          "/static/images/marvel.jpg"
+        ]
+      },
+      {
+        "name": "Ant Man And The Wasp",
+        "link": "project-2",
+        "date": "2018",
+        "photos": [
+          "/static/images/antt.jpg"
+        ]
+      },
+      {
+        "name": "Avengers: Infinity War",
+        "link": "project-1",
+        "date": "2018",
+        "photos": [
+          "/static/images/infinity.jpg"
+        ]
+      },
+      {
+        "name": "Black Panther",
+        "link": "project-2",
+        "date": "2018",
+        "photos": [
+          "/static/images/bpp.jpg"
+        ]
+      },
+      {
+        "name": "Thor: Ragnarok",
+        "link": "project-1",
+        "date": "2017",
+        "photos": [
+          "/static/images/thor.jpg"
+        ]
+      },
+      {
+        "name": "Spider-Man: Homecoming",
+        "link": "project-2",
+        "date": "2017",
+        "photos": [
+          "/static/images/spiderrr.jpg"
+        ]
+      },
+      {
+        "name": "Guardians Of The Galaxy Vol. 2",
+        "link": "project-1",
+        "date": "2017",
+        "photos": [
+          "/static/images/g.jpg"
+        ]
+      },
+      {
+        "name": "Doctor Strange",
+        "link": "project-2",
+        "date": "2016",
+        "photos": [
+          "/static/images/strangee.jpg"
+        ]
+      },
+      {
+        "name": "Captain America: Civil War",
+        "link": "project-1",
+        "date": "2016",
+        "photos": [
+          "/static/images/Ca.jpg"
+        ]
+      },
+      {
+        "name": "Ant Man",
+        "link": "project-2",
+        "date": "2015",
+        "photos": [
+          "/static/images/anttt.jpg"
+        ]
+      },
+      {
+        "name": "Avengers: Age Of Ultron",
+        "link": "project-2",
+        "date": "2015",
+        "photos": [
+          "/static/images/ultron.jpg"
+        ]
+      },
+      {
+        "name": "Guardians Of The Galaxy",
+        "link": "project-1",
+        "date": "2014",
+        "photos": [
+          "/static/images/gg.jpg"
+        ]
+      },
+      {
+        "name": "Captain America: The Winter Soldier`",
+        "link": "project-1",
+        "date": "2014",
+        "photos": [
+          "/static/images/caa.jpg"
+        ]
+      },
+      {
+        "name": "Thor: The Dark World",
+        "link": "project-1",
+        "date": "2013",
+        "photos": [
+          "/static/images/thorrr.jpg"
+        ]
+      },
+      {
+        "name": "Iron Man 3",
+        "link": "project-2",
+        "date": "2013",
+        "photos": [
+          "/static/images/iron.jpg"
+        ]
+      },
+      {
+        "name": "The Avengers",
+        "link": "project-1",
+        "date": "2012",
+        "photos": [
+          "/static/images/avengers.jpg"
+        ]
+      },
+      {
+        "name": "Captain America: The First Avenger",
+        "link": "project-1",
+        "date": "2011",
+        "photos": [
+          "/static/images/caaa.jpg"
+        ]
+      },
+      {
+        "name": "Thor",
+        "link": "project-1",
+        "date": "2011",
+        "photos": [
+          "/static/images/tthor.jpg"
+        ]
+      },
+      {
+        "name": "Iron Man 2",
+        "link": "project-1",
+        "date": "2010",
+        "photos": [
+          "/static/images/ironn.jpg"
+        ]
+      },
+      {
+        "name": "The Incredible Hulk`",
+        "link": "project-1",
+        "date": "2008",
+        "photos": [
+          "/static/images/hulk.jpg"
+        ]
+      },
+      {
+        "name": "Iron Man",
+        "link": "project-1",
+        "date": "2008",
+        "photos": [
+          "/static/images/ironman.jpg"
+        ]
+      }
+    ]
+  }

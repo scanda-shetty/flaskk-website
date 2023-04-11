@@ -1,0 +1,186 @@
+{
+  "characters": [
+    {
+      "name": "Iron Man",
+      "actor": "Robert Downey Jr.",
+      "photos": [
+        "/static/images/stark.png"
+      ]
+    },
+    {
+      "name": "Captain America",
+      "actor": "Chris Evans",
+      "photos": [
+        "/static/images/evans.png"
+      ]
+    },
+    {
+      "name": "Hulk",
+      "actor": "Mark Ruffalo",
+      "photos": [
+        "/static/images/banner.png"
+      ] 
+    },
+    {
+      "name": "Thor",
+      "actor": "Chris Hemsworth",
+      "photos": [
+        "/static/images/hems.png"
+      ] 
+    },
+    {
+      "name": "Black Widow",
+      "actor": "Scarlett Johansson",
+      "photos": [
+        "/static/images/nat.png"
+      ] 
+    },
+    {
+      "name": "Hawkeye",
+      "actor": "Jeremy Renner",
+      "photos": [
+        "/static/images/hawkeye.png"
+      ]
+    },
+    {
+      "name": "War Machine",
+      "actor": "Don Cheadle",
+      "photos": [
+        "/static/images/war.png"
+      ] 
+    },
+    {
+      "name": "The Falcon",
+      "actor": "Anthony Mackie",
+      "photos": [
+        "/static/images/falcon.png"
+      ]
+    },
+    {
+      "name": "Scarlet Witch",
+      "actor": "Elizabeth Olsen",
+      "photos": [
+        "/static/images/witch.png"
+      ] 
+    },
+    {
+      "name": "Spider-Man",
+      "actor": "Tom Holland",
+      "photos": [
+        "/static/images/tom.png"
+      ] 
+    },
+    {
+      "name": "Bucky Barnes",
+      "actor": "Sebastian Stan",
+      "photos": [
+        "/static/images/bucky.png"
+      ] 
+    },
+    {
+      "name": "Ant-Man",
+      "actor": "Paul Rudd",
+      "photos": [
+        "/static/images/paul.png"
+      ] 
+    },
+    {
+      "name": "Captain Marvel",
+      "actor": "Brie Larson",
+      "photos": [
+        "/static/images/ms.png"
+      ] 
+    },
+    {
+      "name": "Nick Fury",
+      "actor": "Samuel L. Jackson",
+      "photos": [
+        "/static/images/nick.png"
+      ]
+    },
+    {
+      "name": "Star-Lord",
+      "actor": "Chris Pratt",
+      "photos": [
+        "/static/images/star.png"
+      ] 
+    },
+    {
+      "name": "Gamora",
+      "actor": "Zoe Saldanha",
+      "photos": [
+        "/static/images/gamora.png"
+      ] 
+    },
+    {
+      "name": "Drax The Destroyer",
+      "actor": "Dave Bautista",
+      "photos": [
+        "/static/images/drax.png"
+      ] 
+    },
+    {
+      "name": "Nebula",
+      "actor": "Karen Gillan",
+      "photos": [
+        "/static/images/nebula.png"
+      ] 
+    },
+    {
+      "name": "Rocket",
+      "actor": "Bradley Cooper",
+      "photos": [
+        "/static/images/rocket.png"
+      ] 
+    },
+    {
+      "name": "Groot",
+      "actor": "Vin Diesel",
+      "photos": [
+        "/static/images/groot.png"
+      ]
+    },
+    {
+      "name": "Black Panther",
+      "actor": "Chadwick Boseman",
+      "photos": [
+        "/static/images/chad.png"
+      ] 
+    },
+    {
+      "name": "Doctor Strange",
+      "actor": "Benedict Cumberbatch",
+      "photos": [
+        "/static/images/doc.png"
+      ] 
+    },
+    {
+      "name": "Wong",
+      "actor": "Benedict Wong",
+      "photos": [
+        "/static/images/wong.png"
+      ] 
+    },
+    {
+      "name": "Loki",
+      "actor": "Tom Hiddleston",
+      "photos": [
+        "/static/images/loki.png"
+      ] 
+    },
+    {
+      "name": "Thanos",
+      "actor": "Josh Brolin",
+      "photos": [
+        "/static/images/thanos.png"
+      ] 
+    },
+    {
+      "name": "Vision",
+      "actor": "Paul Bettany",
+      "photos": [
+        "/static/images/vision.png"
+      ]
+    }
+  ]
+}

@@ -1,15 +1,14 @@
 {% extends "base.html" %}
 
 {% block head %}
-
-<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/reading.css') }}">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/movie.css') }}">
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/card.css') }}">
 {% endblock %}
 
 {% block body %}
 
 <div class="row cards-container">
-    {% include "card.html" %}
+  {% include "card.html" %}
 </div>
 
 {% endblock %}

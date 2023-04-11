@@ -1,77 +1,58 @@
-#title {
-  font-size: 1.2rem;
-  font-weight: 300;
-}
 
 .icon {
   font-size: .9rem;
   display: inline-flex;
-  background: #D8D8D8;
+  background: black;
   border-radius: 3px;
   margin-right: 5px;
   margin-bottom: 15px;
-  span {
-    border-radius: 5px;
-    padding: 3px 5px;
-  };
 }
 
-.react {
-  background: #BAD5F5;
-  span::after {
-    content: "React.js";
-  }
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
 }
 
-.card {
-  margin:10px;
-  max-height: 325px;
-  min-height: 325px;
-  max-width: 320px;
+.grid-item {
+  padding: 10px;
+  text-align: center;
 }
 
-.card-reveal .card-title {
-    overflow: auto;
-    white-space: normal;
-    text-overflow: unset;
+.grid-item img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 
-.md-chip-link {
-    padding-left:8px;
-    padding-right:8px;
-  }
 
-.card-image {
-    max-width:400px;
-    display: flex;
-    justify-content: center;
+.movie-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin:  0 auto;
+  max-width: 1200px;
 }
 
-.card .card-image img.card-image {
-    max-height: 180px;
-    min-height: 180px;
-    width: auto;
+
+
+.grid-item h3 {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.grid-item h4 {
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: bold;
 }
 
-.status {
-  color: #7699C2;
+#logo{
+  transition: 0.3s;
 }
 
-.card-title {
-overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-.container-outer {
-  overflow: hidden;
-}
-
-.container-inner {
-  white-space: nowrap;
-  overflow-y: hidden;
-  overflow-x: scroll;
-  /*kinda hacky solution to remove that ugly scrollbar*/
-  margin-bottom: -25px; /* maximum width of scrollbar */
-  padding-bottom: 25px; /* maximum width of scrollbar */
+#logo:hover{
+  transform: scale(1.1);
 }
