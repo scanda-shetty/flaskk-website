@@ -1,10 +1,3 @@
-# Screenshots
-<p float="middle">
-  <img src="https://raw.githubusercontent.com/crearo/portfolio/master/screenshots/home.png" width="400">
-  <img src="https://raw.githubusercontent.com/crearo/portfolio/master/screenshots/projects.png" width="400">
-  <img src="https://raw.githubusercontent.com/crearo/portfolio/master/screenshots/timeline.png" width="400">
-</p>
-
 # Technology
 
 Developed using Python Flask, and a lot of CSS and Jinja2.
